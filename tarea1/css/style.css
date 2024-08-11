@@ -10,9 +10,22 @@ body, html{
 }
 
 .marco{
+    width: 600px;
+    height: 600px;
+    background-color: #8400ff;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hijo{
     width: 300px;
     height: 300px;
-    background-color: #61dafb;
+    background-color: #c8ff00;
     position: relative;
     overflow: hidden;
     border-radius: 15px;
