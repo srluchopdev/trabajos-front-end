@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>FORMULARIO DE REPORTE DE PROBLEMAS</h1>
+        <form id="myForm">
+            <div class="form-group">
+                <label for="input1">NOMBRE:</label>
+                <input type="text" id="NOMBRE" name="NOMBRE" required>
+            </div>
+            <div class="form-group">
+                <label for="input2">APELLIDO:</label>
+                <input type="text" id="APELLIDO" name="APELLIDO" required>
+            </div>
+            <div class="form-group">
+                <label for="select1">¿CUAL ES SU CARGO?:</label>
+                <select id="CARGO" name="select1" required>
+                    <option value="ADMINISTRATIVO">ADMINISTRATIVO</option>
+                    <option value="SUPERVIDOR">SUPERVISOR</option>
+                    <option value="ALMACEN">ALMACEN</option>
+                    <option value="PRODUCCION">PRODUCCION</option>
+                    <option value="TRANSPORTE">TRANSPORTE</option>
+                    <option value="SEGURIDAD">SEGURIDAD</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="textarea1">REPORTE DE PROBLEMA:</label>
+                <textarea id="textarea1" name="textarea1" rows="4" required></textarea>
+            </div>
+            <button type="button" id="submitBtn">ENVIAR REPORTE</button>
+        </form>
+    </div>
+
+    <script src="./javascript/funciones.js"></script>
+</body>
+</html>
