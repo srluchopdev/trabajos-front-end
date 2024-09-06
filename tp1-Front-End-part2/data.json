@@ -1,0 +1,9 @@
+{
+    "options": [
+        { "value": "administrativo", "text": "administrativo" },
+        { "value": "supervisor", "text": "supervisor" },
+        { "value": "seguridad e higiene", "text": "seguridad e higiene" },
+        { "value": "producción", "text": "producción" },
+        { "value": "seguridad", "text": "seguridad" }
+    ]
+}
